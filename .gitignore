@@ -1,0 +1,149 @@
+
+# https://www.toptal.com/developers/gitignore/api/django에 의해 생성
+# https://www.toptal.com/developers/gitignore?templates=django에서 편집
+
+### 장고 ###
+*.로그
+*.냄비
+* .pyc
+__pycache __ /
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+미디어
+
+# 빌드 프로세스에 collectstatic 실행이 포함 된 경우 정적 파일을 포함하거나 포함하지 않아도됩니다.
+Git 저장소의 # 그에 따라 다음 줄을 업데이트하고 주석을 해제하십시오.
+# <장고 프로젝트 이름> / staticfiles /
+
+### Django.Python Stack ###
+# 바이트 컴파일 / 최적화 / DLL 파일
+* .py [대구]
+* $ py.class
+
+# C 확장
+*.그래서
+
+# 유통 / 포장
+. 파이썬
+짓다/
+개발 계란 /
+dist /
+다운로드 /
+달걀/
+.달걀/
+lib /
+lib64 /
+부속/
+sdist /
+var /
+바퀴 /
+핍 휠 메타 데이터 /
+공유 / 파이썬 휠 /
+* .egg-info /
+.installed.cfg
+*.계란
+명백한
+
+# PyInstaller
+# 일반적으로 이러한 파일은 템플릿의 파이썬 스크립트로 작성됩니다.
+PyInstaller가 exe를 빌드하기 전에 #는 날짜 / 기타 정보를 주입합니다.
+*.명백한
+*.투기
+
+# 인스톨러 로그
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 단위 테스트 / 범위 보고서
+htmlcov /
+.tox /
+.nox /
+.적용 범위
+.적용 범위.*
+.은닉처
+nosetests.xml
+coverage.xml
+*.덮개
+* .py, 커버
+가설 /
+.pytest_cache /
+pytestdebug.log
+
+# 번역
+* .mo
+
+장고 물건 :
+
+# 플라스크 재료 :
+예/
+.webassets-cache
+
+# 으스스한 것들 :
+.scrapy
+
+# 스핑크스 설명서
+docs / _build /
+doc / _build /
+
+# 파이 빌더
+표적/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default /
+ipython_config.py
+
+# pyenv
+.python 버전
+
+# pipenv
+# pypa / pipenv # 598에 따르면, 버전 제어에 Pipfile.lock을 포함시키는 것이 좋습니다.
+# 그러나 플랫폼 별 종속성 또는 종속성이있는 경우 협업의 경우
+# 크로스 플랫폼 지원이없는 pipenv는 작동하지 않거나 작동하지 않는 종속성을 설치할 수 있습니다
+# 필요한 모든 의존성을 설치하십시오.
+# Pipfile.lock
+
+# PEP 582; github.com/David-OConnor/pyflow에서 사용
+__pypackages __ /
+
+# 셀러리 물건
+셀러리 비트 일정
+celerybeat.pid
+
+# SageMath 파싱 된 파일
+* .sage.py
+
+# 환경
+.env
+.venv
+env /
+venv /
+ENV /
+env.bak /
+venv.bak /
+
+# 스파이더 프로젝트 설정
+.spyderproject
+.spyproject
+
+# 로프 프로젝트 설정
+.ropeproject
+
+# mkdocs 문서
+/대지
+
+# mypy
+.mypy_cache /
+.dmypy.json
+dmypy.json
+
+# 파이어 타입 체커
+.pyre /
+
+# pytype 정적 타입 분석기
+.pytype /
+
+# https://www.toptal.com/developers/gitignore/api/django의 끝
